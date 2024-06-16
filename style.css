@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  height: 100vh;
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0b0b;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  color: aqua;
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(cornflowerblue, aqua);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.button {
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #0a0b0b;
+  border: 2px solid aqua;
+  border-radius: 0 20px;
+  text-decoration: none;
+  background-color: aqua;
+  transition: 0.3s ease;
+}
+.button:hover {
+  color: aqua;
+  background-color: #0a0b0b;
+  transition: 0.3s ease;
+}
